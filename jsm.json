@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;82e1794894494fb6ac6251ad967e8e78",
+"spider":"./jar/fan.txt;md5;0e3d57414d7927d36066d0e69914f477",
 "lives":[
 {"name":"fmm","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
@@ -9,8 +9,8 @@
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
+{"key":"皮皮虾JS","name":"🌞皮皮虾[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playerType":2,"ext":"./js/皮皮虾[优].js"},
 {"key":"闪雷","name":"闪雷┃MP4","type":3,"api":"./FTY/drpy2.min.js","ext":"./js/678.js"},
-{"key":"皮皮虾","name":"🦞皮皮虾|解析","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playerType":2,"jar":"./jar/xiaosa.jar;md5;00ade2b74c302f33afbeb7f96f861be4","ext":"http://38.55.250.149:1314/api.php/app/"},
 {"key":"热播影视","name":"👀热播|多线","type":3,"api":"csp_AppRB","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar": "./jar/xiaosa.jar;md5;00ade2b74c302f33afbeb7f96f861be4"},
 {"key": "🌟客星","name": "🌟客星|1080P","type": 3,"api": "csp_Xdai","searchable":1,"quickSearch":1,"changeable":1,"order_num": 0,"playerType": 2,"ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==","jar": "./jar/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"},
 
@@ -22,6 +22,7 @@
 {"key":"Lib","name": "🌟立播┃秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"白白","name":"🐭白白┃秒播","type":3,"api":"csp_Sbaibai","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"zxzj","name":"🍊在线┃秒播","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
 {"key":"csp_Bttoo","name":"🍄比特┃秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
@@ -332,10 +333,10 @@
 {"name": "羽路均沾","type": 0,"url": "https://ylu.cc/index.php?url="},
 {"name": "999","type": 0,"url": "https://huayong.net/999/?v="},
 {"name": "jx5","type": 0,"url": "https://huayong.net/jx5/?url="},
+{"name":"皮皮虾","type":"1","url":"http://45.207.215.101:5423/index.php?url=","ext":{"flag":["PPXLG","皮皮虾4K"]}},
 {"name": "无尽","type": 0,"url": "https://jx.wujinkk.com/dplayer/?url=","ext":{"header":{"User-Agent":"Mozilla/5.0"}}},
 {"name": "yemu","type": 0,"url": "https://www.yemu.xyz/?url="},
 {"name": "vip4","type": 0,"url": "https://huayong.net/vip4/?url="},
-{"name":"皮皮虾","type":"1","url":"http://45.207.215.101:5423/index.php?url=","ext":{"flag":["PPXLG","皮皮虾4K"]}},
 {"name":"免费分享","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
 {"name":"全民","url":"http://api.wpsseo.cn/?v=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}}},
 {"name":"m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},

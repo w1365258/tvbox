@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;82e1794894494fb6ac6251ad967e8e78",
+"spider":"./jar/fan.txt;md5;0e3d57414d7927d36066d0e69914f477",
 "lives":[
     {"name":"live","boot": false,"type":0,"url":"./tv.txt","playerType":2,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.ugigc.us.kg/{name}.png"}
 ],
@@ -7,8 +7,8 @@
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
+{"key":"皮皮虾JS","name":"🌞皮皮虾[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playerType":2,"ext":"./js/皮皮虾[优].js"},
 {"key":"闪雷","name":"闪雷┃MP4","type":3,"api":"./FTY/drpy2.min.js","ext":"./js/678.js"},
-{"key":"皮皮虾","name":"🦞皮皮虾|解析","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playerType":2,"jar":"./jar/xiaosa.jar;md5;00ade2b74c302f33afbeb7f96f861be4","ext":"http://38.55.250.149:1314/api.php/app/"},
 {"key":"热播影视","name":"👀热播|多线","type":3,"api":"csp_AppRB","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar": "./jar/xiaosa.jar;md5;00ade2b74c302f33afbeb7f96f861be4"},
 {"key": "🌟客星","name": "🌟客星|1080P","type": 3,"api": "csp_Xdai","searchable":1,"quickSearch":1,"changeable":1,"order_num": 0,"playerType": 2,"ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==","jar": "./jar/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"},
 
@@ -55,7 +55,6 @@
 {"key":"小学课堂","name":"📚小学┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/小学课堂.json"}},
 {"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/初中课堂.json"}},
 {"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/高中课堂.json"}},
-
 
 {"key":"骚火","name":"影视 | 骚火[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"嗅探词":".m3u8#.mp4#.m3u8?#freeok.mp4","分类url":"https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0","分类":"电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4","数组二次截取":"class=\"v_list\">&&</ul>","数组":"\"v_img\"&&/div>","标题":"title=\"&&\"","副标题":"v_note\"&&</div","跳转播放链接":"<iframe*src=\"&&\"","二次跳转播放链接":"https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1","三次跳转播放链接":"\"url\"*\"&&\""},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 {"key":"晴天","name":"影视 | 晴天[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.qinttv.com/qtyy/{cateId}/area/{area}/page/{catePg}/year/{year}.html","搜索url":"https://www.qinttv.com/qtcz.html;post;wd={wd}&submit=","分类":"电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
@@ -332,9 +331,9 @@
 {"name": "999","type": 0,"url": "https://huayong.net/999/?v="},
 {"name": "jx5","type": 0,"url": "https://huayong.net/jx5/?url="},
 {"name": "无尽","type": 0,"url": "https://jx.wujinkk.com/dplayer/?url=","ext":{"header":{"User-Agent":"Mozilla/5.0"}}},
+{"name":"皮皮虾","type":"1","url":"http://45.207.215.101:5423/index.php?url=","ext":{"flag":["PPXLG","皮皮虾4K"]}},
 {"name": "yemu","type": 0,"url": "https://www.yemu.xyz/?url="},
 {"name": "vip4","type": 0,"url": "https://huayong.net/vip4/?url="},
-{"name":"皮皮虾","type":"1","url":"http://45.207.215.101:5423/index.php?url=","ext":{"flag":["PPXLG","皮皮虾4K"]}},
 {"name":"免费分享","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
 {"name":"全民","url":"http://api.wpsseo.cn/?v=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}}},
 {"name":"m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
