@@ -21,6 +21,22 @@
       "name": "高天流云 JS"
     },
     {
+      "url": "./jsm.json",
+      "name": "高天流云 JSM"
+    },
+    {
+      "url": "./9918.json",
+      "name": "高天流云 九幺八"
+    },
+    {
+      "url": "./99188.json",
+      "name": "高天流云 188"
+    },
+    {
+      "url": "./dianshi.json",
+      "name": "高天流云 电视"
+    },
+    {
       "url": "./XYQ.json",
       "name": "高天流云 XYQ"
     }
